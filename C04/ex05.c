@@ -5,17 +5,17 @@ int main(void)
 	printf("%d\n", ft_atoi_base("1234567890", "0123456789"));
 	printf("%d\n", ft_atoi_base("10000000000000000", "01"));
 	printf("%d\n", ft_atoi_base("5F5E100", "0123456789ABCDEF"));
-	printf("%d\n", ft_atoi_base("104133633034", "0123456"));
-	printf("%d\n", ft_atoi_base("-13344221014043", "01234"));
-	printf("%d\n\n", ft_atoi_base("5EHL50J", "0123456789ABCDEFGHIJKLMNOPQ"));
+	printf("%d\n", ft_atoi_base("104134211161", "0123456"));
+	printf("%d\n", ft_atoi_base("-13344223434043", "01234"));
+	printf("%d\n\n", ft_atoi_base("5EHNCKA", "0123456789ABCDEFGHIJKLMNOPQ"));
 
 	printf("%d\n", ft_atoi_base("!@#$%^&*()", ")!@#$%^&*("));
 	printf("%d\n", ft_atoi_base("IOOOOOOOOOOOOOOOO", "OI"));
 	printf("%d\n", ft_atoi_base("<C<B\"\'\'", "\'\"\?>.<,QWERT ABC"));
-	printf("%d\n", ft_atoi_base("Qa QRRtRRaR ", "aQqR Tt"));
-	printf("%d\n", ft_atoi_base("-_{{}}||_=_}=}{", "=_|{}"));
-	printf("%d\n", ft_atoi_base("D'wyDZr", "ZXCS DF12345;:'\"qwertyas@#$"));
-	printf("%d\n", ft_atoi_base("^$G$M", "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_= "));
+	printf("%d\n", ft_atoi_base("Qa QR qQQQtQ", "aQqR Tt"));
+	printf("%d\n", ft_atoi_base("-_{{}}||{}{}=}{", "=_|{}"));
+	printf("%d\n", ft_atoi_base("D'ws;t4", "ZXCS DF12345;:'\"qwertyas@#$"));
+	printf("%d\n", ft_atoi_base("^$O$M", "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_= "));
 	printf("%d\n\n", ft_atoi_base("!", "!@#$"));
 
 	printf("T1: %d\n", ft_atoi_base("123456", "1234563"));
