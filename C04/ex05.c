@@ -2,6 +2,7 @@
 int	ft_atoi_base(char *str, char *base);
 int main(void)
 {
+	printf("%d\n", ft_atoi_base("10", "011"));
 	printf("%d\n", ft_atoi_base("1234567890", "0123456789"));
 	printf("%d\n", ft_atoi_base("10000000000000000", "01"));
 	printf("%d\n", ft_atoi_base("5F5E100", "0123456789ABCDEF"));
