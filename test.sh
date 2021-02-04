@@ -177,7 +177,7 @@ then
     echo
 
     # Ex02 Test
-    cd Ex02
+    cd ex02
     echo " >> EX02 Your result << "
     tar -xf exo2.tar
     ls -l | grep -v "exo2.tar"
@@ -198,7 +198,7 @@ then
     echo
 
     # Ex03 Test
-    cd Ex03
+    cd ex03
     echo " >> EX03 Your result << "
     cat klist.txt
     cd ..
