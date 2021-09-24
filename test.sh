@@ -282,9 +282,9 @@ then
 
 elif [[ $PROJECT == "C05" ]]
 then
-    MAX_EXERCISE=7
-    test_norminette 7 $MAX_EXERCISE
-    for I in $(seq 7 $MAX_EXERCISE)
+    MAX_EXERCISE=8
+    test_norminette 0 $MAX_EXERCISE
+    for I in $(seq 0 $MAX_EXERCISE)
     do
         test_c_exercise $(printf "%02d" "$I")
     done
